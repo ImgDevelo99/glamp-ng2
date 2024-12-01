@@ -236,6 +236,7 @@ namespace Glamping_Addventure.Controllers
                         {
                             reservaExistente.DetalleReservaServicios.Add(new DetalleReservaServicio
                             {
+                                Idreserva = reservaExistente.IdReserva,
                                 Idservicio = serviciosIds[i],
                                 Cantidad = cantidadesServicios[i],
                             });
